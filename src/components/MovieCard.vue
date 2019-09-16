@@ -8,7 +8,7 @@
     >
       <v-card-text>
         <div>{{movie.room}}</div>
-        <v-list-item-title class="headline mb-1">Headline 5</v-list-item-title>
+        <v-list-item-title class="subtitle-2 mb-1">{{movie.subtitle}}</v-list-item-title>
         <p class="display-1 text--primary">{{movie.title}}</p>
         <p>{{movie.category}}</p>
         <div class="text--primary">{{movie.description}}</div>
