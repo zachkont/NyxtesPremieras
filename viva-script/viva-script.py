@@ -1,6 +1,8 @@
 from html.parser import HTMLParser
 import requests
 import json
+import datetime
+from dateutil.parser import parse
 
 class Movie():
 	
@@ -20,12 +22,24 @@ class Movie():
 		return
 
 	def toObject(self):
+		if "Σεπτεμβρίου" in self.date:
+			self.date = 'Wed, 18/9'
+			self.time = '12:00'
 		return {
+			"id": 0,
 			"date": self.date,
 			"time": self.time,
+			"director": "director goes here",
+			"datetime": datetime.datetime.strptime(self.date + ' ' + self.time, '%a, %d/%m %H:%M').isoformat(),
+			# "datetime": datetime.datetime.fromisoformat(parse(self.date + ' ' + self.time)),
 			"title": self.title,
-			"cinema": self.cinema,
-			"description": self.description
+			"subtitle": "subtitle goes here",
+			"room": self.cinema,
+			# "description": self.description,
+			"description": "description goes here",
+			"isparty": "makeFalse",
+        	"isfirst": "makeFalse",
+        	"selected": "makeFalse"
 		}
 
 class DescriptionParser(HTMLParser):
@@ -73,7 +87,7 @@ class Parser(HTMLParser):
 				# Movie tag begins
 				if self.isMovie(name, values):
 					Parser.moviesCounter += 1
-					print(Parser.moviesCounter)
+					# print(Parser.moviesCounter)
 					return
 
 				if self.isDate(name, values):
@@ -121,7 +135,19 @@ class Parser(HTMLParser):
 			Parser.writeAttr = False
 
 		if (Parser.tmpAttr == "cinema"):
-			Parser.movies.append( Movie( Parser.tmpMovie["date"], Parser.tmpMovie["time"], Parser.tmpMovie["title"], Parser.tmpMovie["cinema"], Parser.tmpMovie["description"] ) )
+			date = Parser.tmpMovie["date"]
+			date = date.replace("Πεμ", "Thu")
+			date = date.replace("Παρ", "Fri")
+			date = date.replace("Σαβ", "Sat")
+			date = date.replace("Κυρ", "Sun")
+			date = date.replace("Δευ", "Mon")
+			date = date.replace("Τρι", "Tue")
+			date = date.replace("Τετ", "Wed")
+			time = Parser.tmpMovie["time"]
+			title = Parser.tmpMovie["title"]
+			cinema = Parser.tmpMovie["cinema"]
+			description = Parser.tmpMovie["description"]
+			Parser.movies.append( Movie( date, time, title, cinema, description ) )
 
 		return
 
@@ -171,23 +197,29 @@ parser = Parser()
 parser.feed(htmlDoc)
 # print(parser.tmpMovie)
 
-movies = {
-	"movies": []
-}
+movies = []
 
-# print("{"movies": [)")
-# for movie in parser.movies:
-	# movie.displayMovie()
-	# print(movie.toObject())
-	# print(",")
-	# movies["movies"].append( movie.toObject() )
+# print("const movies = [")
 
-# print("]}")
-# print( json.dumps(movies) )
+for movie in parser.movies:
+	movieObject = movie.toObject()
+	if movieObject not in movies:
+		# movie.displayMovie()
+		# print(movie.toObject())
+		# print(",")
+		movies.append(movieObject)
 
-print(len(parser.movies))
+index = 0
+for movie in movies:
+	movie["id"] = index
+	index = index + 1
+	
+
+# print("]")
+print(json.dumps(movies, ensure_ascii=False))
+
+# print(len(parser.movies))
 # print("SUNOLO TAINIWN: ", parser.moviesCounter)
-
 parser.close()
 
 # classes in divs:

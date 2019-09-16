@@ -1,4 +1,4 @@
-const movies = [
+[
     {
         "id": 0,
         "date": "Thu, 19/9",
@@ -9,9 +9,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 1,
@@ -23,9 +23,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 2,
@@ -37,9 +37,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 3,
@@ -51,9 +51,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 4,
@@ -65,9 +65,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 5,
@@ -79,9 +79,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 6,
@@ -93,9 +93,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 7,
@@ -107,9 +107,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 8,
@@ -121,9 +121,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 9,
@@ -135,9 +135,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 10,
@@ -149,9 +149,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 11,
@@ -163,9 +163,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 12,
@@ -177,9 +177,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 13,
@@ -191,9 +191,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 14,
@@ -205,9 +205,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 15,
@@ -219,9 +219,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 16,
@@ -233,9 +233,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 17,
@@ -247,9 +247,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 18,
@@ -261,9 +261,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 19,
@@ -275,9 +275,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 20,
@@ -289,9 +289,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 21,
@@ -303,9 +303,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 22,
@@ -317,9 +317,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 23,
@@ -331,9 +331,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 24,
@@ -345,9 +345,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 25,
@@ -359,9 +359,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 26,
@@ -373,9 +373,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 27,
@@ -387,9 +387,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 28,
@@ -401,9 +401,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 29,
@@ -415,9 +415,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 30,
@@ -429,9 +429,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 31,
@@ -443,9 +443,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 32,
@@ -457,9 +457,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 33,
@@ -471,9 +471,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 34,
@@ -485,9 +485,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 35,
@@ -499,9 +499,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 36,
@@ -513,9 +513,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 37,
@@ -527,9 +527,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 38,
@@ -541,9 +541,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 39,
@@ -555,9 +555,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 40,
@@ -569,9 +569,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 41,
@@ -583,9 +583,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 42,
@@ -597,9 +597,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 43,
@@ -611,9 +611,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 44,
@@ -625,9 +625,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 45,
@@ -639,9 +639,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 46,
@@ -653,9 +653,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Νύχτες Πρεμιέρας  - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 47,
@@ -667,9 +667,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 48,
@@ -681,9 +681,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 49,
@@ -695,9 +695,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 50,
@@ -709,9 +709,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 51,
@@ -723,9 +723,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 52,
@@ -737,9 +737,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 53,
@@ -751,9 +751,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 54,
@@ -765,9 +765,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 55,
@@ -779,9 +779,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 56,
@@ -793,9 +793,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 57,
@@ -807,9 +807,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 58,
@@ -821,9 +821,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 59,
@@ -835,9 +835,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 60,
@@ -849,9 +849,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 61,
@@ -863,9 +863,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 62,
@@ -877,9 +877,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 63,
@@ -891,9 +891,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 64,
@@ -905,9 +905,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 65,
@@ -919,9 +919,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 66,
@@ -933,9 +933,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 67,
@@ -947,9 +947,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 68,
@@ -961,9 +961,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 69,
@@ -975,9 +975,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 70,
@@ -989,9 +989,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 71,
@@ -1003,9 +1003,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 72,
@@ -1017,9 +1017,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 73,
@@ -1031,9 +1031,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 74,
@@ -1045,9 +1045,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 75,
@@ -1059,9 +1059,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 76,
@@ -1073,9 +1073,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 77,
@@ -1087,9 +1087,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 78,
@@ -1101,9 +1101,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 79,
@@ -1115,9 +1115,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 80,
@@ -1129,9 +1129,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 81,
@@ -1143,9 +1143,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 82,
@@ -1157,9 +1157,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 83,
@@ -1171,9 +1171,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 84,
@@ -1185,9 +1185,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 85,
@@ -1199,9 +1199,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 86,
@@ -1213,9 +1213,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 87,
@@ -1227,9 +1227,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 88,
@@ -1241,9 +1241,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 89,
@@ -1255,9 +1255,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 90,
@@ -1269,9 +1269,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 91,
@@ -1283,9 +1283,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 92,
@@ -1297,9 +1297,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 93,
@@ -1311,9 +1311,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 94,
@@ -1325,9 +1325,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 95,
@@ -1339,9 +1339,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 96,
@@ -1353,9 +1353,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 97,
@@ -1367,9 +1367,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 98,
@@ -1381,9 +1381,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 99,
@@ -1395,9 +1395,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 100,
@@ -1409,9 +1409,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 101,
@@ -1423,9 +1423,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 102,
@@ -1437,9 +1437,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 103,
@@ -1451,9 +1451,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 104,
@@ -1465,9 +1465,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 105,
@@ -1479,9 +1479,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 106,
@@ -1493,9 +1493,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 107,
@@ -1507,9 +1507,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 108,
@@ -1521,9 +1521,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 109,
@@ -1535,9 +1535,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 110,
@@ -1549,9 +1549,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 111,
@@ -1563,9 +1563,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 112,
@@ -1577,9 +1577,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 113,
@@ -1591,9 +1591,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 114,
@@ -1605,9 +1605,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 115,
@@ -1619,9 +1619,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 116,
@@ -1633,9 +1633,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 117,
@@ -1647,9 +1647,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 118,
@@ -1661,9 +1661,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 119,
@@ -1675,9 +1675,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 120,
@@ -1689,9 +1689,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 121,
@@ -1703,9 +1703,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 122,
@@ -1717,9 +1717,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 123,
@@ -1731,9 +1731,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 124,
@@ -1745,9 +1745,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 125,
@@ -1759,9 +1759,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 126,
@@ -1773,9 +1773,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 127,
@@ -1787,9 +1787,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 128,
@@ -1801,9 +1801,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 129,
@@ -1815,9 +1815,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 130,
@@ -1829,9 +1829,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 131,
@@ -1843,9 +1843,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 132,
@@ -1857,9 +1857,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 133,
@@ -1871,9 +1871,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 134,
@@ -1885,9 +1885,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 135,
@@ -1899,9 +1899,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 136,
@@ -1913,9 +1913,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 137,
@@ -1927,9 +1927,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 138,
@@ -1941,9 +1941,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 139,
@@ -1955,9 +1955,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 140,
@@ -1969,9 +1969,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 141,
@@ -1983,9 +1983,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 142,
@@ -1997,9 +1997,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 143,
@@ -2011,9 +2011,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 144,
@@ -2025,9 +2025,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 145,
@@ -2039,9 +2039,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 146,
@@ -2053,9 +2053,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 147,
@@ -2067,9 +2067,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 148,
@@ -2081,9 +2081,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 149,
@@ -2095,9 +2095,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 150,
@@ -2109,9 +2109,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 151,
@@ -2123,9 +2123,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 152,
@@ -2137,9 +2137,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 153,
@@ -2151,9 +2151,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 154,
@@ -2165,9 +2165,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 155,
@@ -2179,9 +2179,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 156,
@@ -2193,9 +2193,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 157,
@@ -2207,9 +2207,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 158,
@@ -2221,9 +2221,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 159,
@@ -2235,9 +2235,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 160,
@@ -2249,9 +2249,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 161,
@@ -2263,9 +2263,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 162,
@@ -2277,9 +2277,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Νύχτες Πρεμιέρας  - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 163,
@@ -2291,9 +2291,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Νύχτες Πρεμιέρας  - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 164,
@@ -2305,9 +2305,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 165,
@@ -2319,9 +2319,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 166,
@@ -2333,9 +2333,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 167,
@@ -2347,9 +2347,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 168,
@@ -2361,9 +2361,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 169,
@@ -2375,9 +2375,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 170,
@@ -2389,9 +2389,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 171,
@@ -2403,9 +2403,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 172,
@@ -2417,9 +2417,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 173,
@@ -2431,9 +2431,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 174,
@@ -2445,9 +2445,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 175,
@@ -2459,9 +2459,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κινηματογράφος ΙΝΤΕΑΛ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 176,
@@ -2473,9 +2473,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 1 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 177,
@@ -2487,9 +2487,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 2 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 178,
@@ -2501,9 +2501,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Κιν/φος ΑΣΤΟΡ - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 179,
@@ -2515,9 +2515,9 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Odeon Όπερα 2 - Αθήνα, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     },
     {
         "id": 180,
@@ -2529,10 +2529,8 @@ const movies = [
         "subtitle": "subtitle goes here",
         "room": "Δαναός  - Δαναός 1 - Αμπελόκηποι, Αττική",
         "description": "description goes here",
-        "isparty": false,
-        "isfirst": false,
-        "selected": false
+        "isparty": "makeFalse",
+        "isfirst": "makeFalse",
+        "selected": "makeFalse"
     }
-];
-
-export default movies;
+]
