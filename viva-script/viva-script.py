@@ -2,9 +2,11 @@ from html.parser import HTMLParser
 import requests
 import json
 import datetime
+import os
 from dateutil.parser import parse
 
 class Movie():
+	id = -1
 	
 	def __init__(self, date=None, time=None, title=None, cinema=None, description=None):
 		self.date = date
@@ -25,8 +27,11 @@ class Movie():
 		if "Σεπτεμβρίου" in self.date:
 			self.date = 'Wed, 18/9'
 			self.time = '12:00'
+
+		Movie.id += 1
+
 		return {
-			"id": 0,
+			"id": Movie.id,
 			"date": self.date,
 			"time": self.time,
 			"director": "director goes here",
@@ -35,11 +40,11 @@ class Movie():
 			"title": self.title,
 			"subtitle": "subtitle goes here",
 			"room": self.cinema,
-			# "description": self.description,
-			"description": "description goes here",
+			"description": self.description,
+			# "description": "description goes here",
 			"isparty": "makeFalse",
-        	"isfirst": "makeFalse",
-        	"selected": "makeFalse"
+			"isfirst": "makeFalse",
+			"selected": "makeFalse"
 		}
 
 class DescriptionParser(HTMLParser):
@@ -58,15 +63,19 @@ class DescriptionParser(HTMLParser):
 
 	def handle_data(self, data):
 		if (DescriptionParser.writeAttr):
-			DescriptionParser.description += data + "\n\n"
+			DescriptionParser.description += data #+ os.linesep
 
 	def isDescription(self, attributeName, values):
 		if (attributeName == "itemprop") and (values == "description"):
 			return True
 		return False
 
+	def clearDescription(self):
+		DescriptionParser.description = ""
+
 class Parser(HTMLParser):
 
+	dcp = DescriptionParser()
 	movies = []
 	moviesCounter = 0
 	writeAttr = False
@@ -77,6 +86,16 @@ class Parser(HTMLParser):
 		"title": None,
 		"cinema": None,
 		"description": None
+	}
+
+	weekdays = {
+		"Δευ": "Mon",
+		"Τρι": "Tue",
+		"Τετ": "Wed",
+		"Πεμ": "Thu",
+		"Παρ": "Fri",
+		"Σαβ": "Sat",
+		"Κυρ": "Sun"
 	}
 
 	def handle_starttag(self, tag, attrs):
@@ -109,17 +128,17 @@ class Parser(HTMLParser):
 					Parser.writeAttr = True
 					Parser.tmpAttr = "cinema"
 
-		# if (tag == "a"):
-		# 	for name, values in attrs:
-		# 		if self.isDescription(name, values):
-		# 			Parser.writeAttr = True
-		# 			Parser.tmpAttr = "description"
+		if (tag == "a"):
+			for name, values in attrs:
+				if self.isDescription(name, values):
+					Parser.writeAttr = True
+					Parser.tmpAttr = "description"
 
-		# 	for name, values in attrs:
-		# 		if (name == "href") and (Parser.writeAttr) and (Parser.tmpAttr == "description"):
-		# 			link = "https://www.viva.gr" + values
-		# 			self.saveDescription(link)
-		# 			Parser.writeAttr = False
+			for name, values in attrs:
+				if (name == "href") and (Parser.writeAttr) and (Parser.tmpAttr == "description"):
+					link = "https://www.viva.gr" + values
+					self.saveDescription(link)
+					Parser.writeAttr = False
 
 		return
 
@@ -134,29 +153,25 @@ class Parser(HTMLParser):
 			Parser.tmpMovie[Parser.tmpAttr] = data
 			Parser.writeAttr = False
 
-		if (Parser.tmpAttr == "cinema"):
+		if (Parser.tmpAttr == "description"):
 			date = Parser.tmpMovie["date"]
-			date = date.replace("Πεμ", "Thu")
-			date = date.replace("Παρ", "Fri")
-			date = date.replace("Σαβ", "Sat")
-			date = date.replace("Κυρ", "Sun")
-			date = date.replace("Δευ", "Mon")
-			date = date.replace("Τρι", "Tue")
-			date = date.replace("Τετ", "Wed")
+			for day in Parser.weekdays:
+				date = date.replace(day, Parser.weekdays[day])
 			time = Parser.tmpMovie["time"]
 			title = Parser.tmpMovie["title"]
 			cinema = Parser.tmpMovie["cinema"]
 			description = Parser.tmpMovie["description"]
 			Parser.movies.append( Movie( date, time, title, cinema, description ) )
+			# Clear attribute to avoid duplicate values
+			Parser.tmpAttr = ""
 
 		return
 
 	def saveDescription(self, link):
 		res = requests.get(link).text
-		dcp = DescriptionParser()
-		dcp.feed(res)
-		Parser.tmpMovie["description"] = dcp.description
-		dcp.description = ""
+		Parser.dcp.feed(res)
+		Parser.tmpMovie["description"] = Parser.dcp.description
+		Parser.dcp.clearDescription()
 		return
 
 	def isMovie(self, attributeName, values):
@@ -195,30 +210,14 @@ htmlDoc = response.text
 
 parser = Parser()
 parser.feed(htmlDoc)
-# print(parser.tmpMovie)
 
-movies = []
+movies = [ movie.toObject() for movie in parser.movies ]
 
-# print("const movies = [")
-
-for movie in parser.movies:
-	movieObject = movie.toObject()
-	if movieObject not in movies:
-		# movie.displayMovie()
-		# print(movie.toObject())
-		# print(",")
-		movies.append(movieObject)
-
-index = 0
-for movie in movies:
-	movie["id"] = index
-	index = index + 1
-	
-
-# print("]")
 print(json.dumps(movies, ensure_ascii=False))
+# output = open("out.json","w+")
+# output.write(json.dumps(movies, ensure_ascii=False))
+# output.close
 
-# print(len(parser.movies))
 # print("SUNOLO TAINIWN: ", parser.moviesCounter)
 parser.close()
 
