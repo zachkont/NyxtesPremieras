@@ -25,8 +25,7 @@ class Movie():
 
 	def toObject(self):
 		if "Σεπτεμβρίου" in self.date:
-			self.date = 'Wed, 18/9'
-			self.time = '12:00'
+			return None
 
 		Movie.id += 1
 
@@ -35,13 +34,11 @@ class Movie():
 			"date": self.date,
 			"time": self.time,
 			"director": "director goes here",
-			"datetime": datetime.datetime.strptime(self.date + ' ' + self.time, '%a, %d/%m %H:%M').isoformat(),
-			# "datetime": datetime.datetime.fromisoformat(parse(self.date + ' ' + self.time)),
+			"datetime": datetime.datetime.strptime(self.date + '/2019 ' + self.time, '%a, %d/%m/%y %H:%M').isoformat(),
 			"title": self.title,
 			"subtitle": "subtitle goes here",
 			"room": self.cinema,
 			"description": self.description,
-			# "description": "description goes here",
 			"isparty": "makeFalse",
 			"isfirst": "makeFalse",
 			"selected": "makeFalse"
@@ -106,7 +103,6 @@ class Parser(HTMLParser):
 				# Movie tag begins
 				if self.isMovie(name, values):
 					Parser.moviesCounter += 1
-					# print(Parser.moviesCounter)
 					return
 
 				if self.isDate(name, values):
@@ -211,14 +207,9 @@ htmlDoc = response.text
 parser = Parser()
 parser.feed(htmlDoc)
 
-movies = [ movie.toObject() for movie in parser.movies ]
+movies = [ movie.toObject() for movie in parser.movies if movie != None ]
 
 print(json.dumps(movies, ensure_ascii=False))
-# output = open("out.json","w+")
-# output.write(json.dumps(movies, ensure_ascii=False))
-# output.close
-
-# print("SUNOLO TAINIWN: ", parser.moviesCounter)
 parser.close()
 
 # classes in divs:

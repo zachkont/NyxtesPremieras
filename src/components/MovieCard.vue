@@ -8,10 +8,11 @@
     >
       <v-card-text>
         <div>{{movie.room}}</div>
+        <p class="np-time">{{movie.time}}</p>
         <v-list-item-title class="subtitle-2 mb-1">{{movie.subtitle}}</v-list-item-title>
-        <p class="title text--primary">{{movie.title}}</p>
+        <p class="np-title text--primary">{{movie.title}}</p>
         <p>{{movie.category}}</p>
-        <div class="description text--primary">{{movie.description}}</div>
+        <div class="np-description text--primary">{{movie.description}}</div>
       </v-card-text>
       <v-card-actions>
         <v-btn text color="deep-purple accent-4">Learn More</v-btn>
@@ -21,7 +22,7 @@
 </template>
 
 <style scoped>
-  .title {
+  .np-title {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.5rem;
@@ -29,9 +30,13 @@
     font-family: "Roboto", sans-serif !important;
   }
 
-  .description {
+  .np-description {
     font-size: 16px;
     font-weight: 400;
+  }
+  
+  .np-time {
+    font-weight: 700;
   }
 </style>
 
