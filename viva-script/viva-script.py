@@ -201,7 +201,7 @@ class Parser(HTMLParser):
 		return False
 
 
-response = requests.get("https://www.viva.gr/tickets/venues/nyxtes-premieras/")
+response = requests.get("https://www.viva.gr/tickets/cinema/28o-diethnes-festibal-kinimatografou-tis-athinas-nyxtes-premieras/")
 htmlDoc = response.text
 
 parser = Parser()
